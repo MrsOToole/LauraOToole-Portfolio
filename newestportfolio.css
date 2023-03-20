@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "open sans";
+    background-image: url("./assets\ folder/laura o'toole/background2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+   .logo{
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+   }
+   
+   /* Add a background color to the top navigation */
+   .topnav {
+    background-color: #0ABAB5;
+     overflow: hidden;
+    }
+   
+   /* Style the links inside the navigation bar */
+   .topnav a {
+     float: right;
+     display: block;
+     color: white;
+     text-align: center;
+     padding: 30px 30px;
+     text-decoration: none;
+     font-size: 25px;
+   }
+   
+   /* Change the color of links on hover */
+   .topnav a:hover {
+     
+     color: black;
+   }
+   /* Hide the link that should open and close the topnav on small screens */
+   .topnav .icon {
+     display: none;
+   }
+
+
+   
+   
+   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+   @media screen and (max-width: 600px) {
+    .topnav{width: 450%;}
+     .topnav a:not(:first-child) {display: none;}
+     .topnav a.icon {
+       float: right;
+       display: block;
+     }
+   }
+   
+   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+   @media screen and (max-width: 600px) {
+     .topnav.responsive {position: relative;}
+     .topnav.responsive a.icon {
+       position: absolute;
+       right: 0;
+       top: 0;
+     }
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+     }
+   }
+.profilepicture{width: 25%;
+   height: 320px;
+   padding-top: 110px;
+   float: left;}
+
+.aboutme{padding-top:95px;
+   padding-right: 100px;
+    width: 40%;
+    float :left;
+    text-align: center;
+    }
+.contacthead{color: rgb(90, 89, 89);}
+
+.contact{background-image: radial-gradient(80% 60%, #0abab4a4 30%,#fcfdfd);
+   float: left;
+   padding: 60px;
+   padding-right: 40px;
+   padding-top: 20px;
+    display:inline-flex;
+    color: white;
+    border: solid #ffffff 10px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 12px #f3f5f5f1;
+    font-size: 14px;
+    margin-right: 10px;
+   
+  }
+
+.contactbtn{background-color: #9390903e;
+   color: white;
+   border: none;
+   padding: 5px 20px;
+   border-radius: 5px;
+   margin-left:30px;
+   box-shadow: 2px 2px 1px 2px #f3f5f5f1;
+   display: flex;
+   flex-direction: row;
+   font-size: 16px;
+  }
+
+
+ #footercontainer {position: relative;
+        background-color: #0ABAB5;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 100%;
+        
+}
+
+ #foot
+     {display: flex;
+     flex-direction: row;
+     height:50px;
+     float:left;padding-left: 30px;padding-right: 12px;}
+
+/*carousel slider*/
+
+.slideshow-container {
+ position: relative;
+   justify-content: center;
+   margin: auto;
+   display: flex;
+   float: left;
+   }
+ 
+ /* Hide the images by default */
+ .mySlides {
+   display: none;
+   width: auto;
+   height: auto;
+   padding: 60px;
+   margin-top:40px;
+   padding-right: 350px;
+   padding-left: 200px;
+}
+
+ @media screen and (max-width: 768px) {
+   /* mobile styles go here */
+
+.logo{ width:400px;
+padding: 20px;
+margin-left: 35%;
+}
+.profilepicture{display:none;
+}
+
+.aboutme{
+  width: 600px;
+  margin-left: 350px;
+  margin-bottom:50px ;
+ 
+}
+.contact{margin-left: 120%;
+  margin-bottom: 160px;
+}
+#footercontainer{
+  width: 450%;
+}
+
+#foot{height:80px;
+  float:left;
+  ;
+}
+.mySlides {
+  max-width: 800px;
+   display: none;
+   padding-top: 50px;
+   padding-left: 450px;
+   width: 800px;
+   height: auto; 
+ }
+ }
+
+
+ 
+
+ 
+ 
