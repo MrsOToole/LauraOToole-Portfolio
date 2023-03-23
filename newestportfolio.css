@@ -45,7 +45,7 @@ body {
    
    /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
    @media screen and (max-width: 600px) {
-    .topnav{width: 450%;}
+    .topnav{width: 100%;}
      .topnav a:not(:first-child) {display: none;}
      .topnav a.icon {
        float: right;
@@ -147,29 +147,29 @@ body {
  @media screen and (max-width: 768px) {
    /* mobile styles go here */
 
-.logo{ width:400px;
-padding: 20px;
-margin-left: 35%;
+.logo{ width:200px;
+  height: auto;
+
 }
 .profilepicture{display:none;
 }
 
 .aboutme{
-  width: 600px;
-  margin-left: 350px;
-  margin-bottom:50px ;
+ width: 300px;
+ padding: 10%;
+
  
 }
-.contact{margin-left: 120%;
-  margin-bottom: 160px;
+.contact{ margin: 10%;
 }
 #footercontainer{
-  width: 450%;
+ display: flex;
+ flex-wrap: wrap;
 }
 
-#foot{height:80px;
-  float:left;
-  ;
+#foot{height:15px;
+  display: flex;
+  flex-direction: row;
 }
 .mySlides {
   max-width: 800px;
@@ -180,9 +180,3 @@ margin-left: 35%;
    height: auto; 
  }
  }
-
-
- 
-
- 
- 
