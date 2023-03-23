@@ -181,6 +181,8 @@ height: 20px;
 margin-right: 6px;
 }
 .slideshow-container {
+   margin-top: 100px;
+  margin-bottom: 50px;
  width: 100%;
  height: auto;
  margin-right: 0;
