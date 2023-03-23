@@ -160,7 +160,7 @@ body {
 
  
 }
-.contact{ margin: 15%;
+.contact{ margin: 20%;
 }
 #footercontainer{
  display: flex;
@@ -174,7 +174,8 @@ body {
 .mySlides {
   max-width: 800px;
    display: none;
-   padding-top: 50px;
+   padding-top: 20px;
    height: auto; 
+    margin-right:20px;
  }
  }
