@@ -176,6 +176,9 @@ flex-wrap: wrap;
 #foot{
 display: flex;
 flex-direction: row;
+padding: 0;
+height: 20px;
+margin-right: 6px;
 }
 .slideshow-container {
  width: 100%;
