@@ -157,9 +157,8 @@ body {
 .aboutme{
  width: 300px;
  padding: 15%;
-
- 
-}
+    padding-top:20px;
+     }
 .contact{ margin: 20%;
 }
 #footercontainer{
@@ -167,7 +166,7 @@ body {
  flex-wrap: wrap;
 }
 
-#foot{height:15px;
+#foot{
   display: flex;
   flex-direction: row;
 }
