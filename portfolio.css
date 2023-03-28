@@ -196,3 +196,9 @@ margin-right: 6px;
 }
 
 }
+
+@media screen and (min-width: 1700px){
+  .profilepicture{padding-top: 250px;}
+  .aboutme{padding-top: 190px;}
+  .contact{padding-top: 60px;}
+}
