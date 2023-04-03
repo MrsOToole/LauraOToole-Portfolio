@@ -197,8 +197,8 @@ margin-right: 6px;
 
 }
 
-@media screen and (min-width: 1700px){
-  .profilepicture{padding-top: 250px;}
-  .aboutme{padding-top: 190px;}
-  .contact{padding-top: 60px;}
+@media screen and (max-width: 1440px) {
+  .profilepicture{margin-top: 100px;}
+  .aboutme{margin-top: 100px;}
+  .contact{margin-top: 100px;}
 }
