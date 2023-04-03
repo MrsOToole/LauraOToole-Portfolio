@@ -198,7 +198,7 @@ margin-right: 6px;
 }
 
 @media screen and (max-width: 1440px) {
-  .profilepicture{margin-top: 100px;}
-  .aboutme{margin-top: 100px;}
-  .contact{margin-top: 100px;}
+  .profilepicture{margin-top: 160px;}
+  .aboutme{margin-top: 160px;}
+  .contact{margin-top: 180px;}
 }
